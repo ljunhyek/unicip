@@ -1,0 +1,32 @@
+from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/cli.rb:29:in `start'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/exe/bundle:28:in `block in <top (required)>'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/friendly_errors.rb:118:in `with_friendly_errors'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/exe/bundle:20:in `<top (required)>'
+	from /opt/render/project/.gems/bin/bundle:25:in `load'
+	from /opt/render/project/.gems/bin/bundle:25:in `<main>'
+bundler: failed to load command: rake (/opt/render/project/rubies/ruby-3.2.9/bin/rake)
+/opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/definition.rb:458:in `validate_platforms!': Your bundle only supports platforms [] but your local platform is x86_64-linux. Add the current platform to the lockfile with (Bundler::ProductionError)
+`bundle lock --add-platform x86_64-linux` and try again.
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/definition.rb:427:in `validate_runtime!'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler.rb:160:in `setup'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/setup.rb:32:in `block in <top (required)>'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/ui/shell.rb:173:in `with_level'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/ui/shell.rb:119:in `silence'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/setup.rb:32:in `<top (required)>'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/cli/exec.rb:57:in `require_relative'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/cli/exec.rb:57:in `kernel_load'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/cli/exec.rb:23:in `run'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/cli.rb:451:in `exec'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor.rb:538:in `dispatch'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/cli.rb:35:in `dispatch'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/cli.rb:29:in `start'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/exe/bundle:28:in `block in <top (required)>'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/lib/bundler/friendly_errors.rb:118:in `with_friendly_errors'
+	from /opt/render/project/.gems/gems/bundler-2.7.1/exe/bundle:20:in `<top (required)>'
+	from /opt/render/project/.gems/bin/bundle:25:in `load'
+	from /opt/render/project/.gems/bin/bundle:25:in `<main>'
+==> Build failed 😞
+==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys

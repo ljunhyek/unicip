@@ -4,6 +4,10 @@ set -o errexit
 
 echo "Render 빌드 시작..."
 
+# 플랫폼 추가 (Linux 환경 지원)
+echo "Linux 플랫폼 지원 추가 중..."
+bundle lock --add-platform x86_64-linux
+
 # Bundler 설치
 echo "Dependencies 설치 중..."
 bundle install
