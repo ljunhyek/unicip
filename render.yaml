@@ -32,3 +32,7 @@ services:
         value: enabled
       - key: DATABASE_POOL
         value: 5
+      - key: WEB_CONCURRENCY
+        value: 2
+      - key: KIPRIS_API_URL
+        value: http://plus.kipris.or.kr/openapi/rest

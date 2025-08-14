@@ -1,2 +1,100 @@
-00:42.924863191Z lists other enhancements and bugfixes that have been implemented since2025-08-14T06:00:42.924866831Z version 2.3.0.2025-08-14T06:00:42.924881971Z Post-install message from devise:2025-08-14T06:00:42.924886061Z 2025-08-14T06:00:42.924890571Z [DEVISE] Please review the [changelog] and [upgrade guide] for more info on Hotwire / Turbo integration.2025-08-14T06:00:42.924895272Z 2025-08-14T06:00:42.924899041Z   [changelog] https://github.com/heartcombo/devise/blob/main/CHANGELOG.md2025-08-14T06:00:42.924903762Z   [upgrade guide] https://github.com/heartcombo/devise/wiki/How-To:-Upgrade-to-Devise-4.9.0-%5BHotwire-Turbo-integration%5D2025-08-14T06:00:42.924915062Z   Post-install message from httparty:2025-08-14T06:00:42.924919042Z When you HTTParty, you must party hard!2025-08-14T06:00:42.925107197Z 1 installed gem you directly depend on is looking for funding.2025-08-14T06:00:42.925120957Z   Run `bundle fund` for details2025-08-14T06:00:43.338498489Z bundler: failed to load command: rails (/opt/render/project/.gems/bin/rails)2025-08-14T06:00:43.339868412Z /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-7.0.8.7/lib/active_support/logger_thread_safe_level.rb:12:in `<module:LoggerThreadSafeLevel>': uninitialized constant ActiveSupport::LoggerThreadSafeLevel::Logger (NameError)2025-08-14T06:00:43.339900733Z 2025-08-14T06:00:43.339904763Z     Logger::Severity.constants.each do |severity|2025-08-14T06:00:43.339907873Z     ^^^^^^2025-08-14T06:00:43.339911233Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-7.0.8.7/lib/active_support/logger_thread_safe_level.rb:9:in `<module:ActiveSupport>'2025-08-14T06:00:43.339914953Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-7.0.8.7/lib/active_support/logger_thread_safe_level.rb:8:in `<top (required)>'2025-08-14T06:00:43.339917914Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-7.0.8.7/lib/active_support/logger_silence.rb:5:in `require'2025-08-14T06:00:43.339920454Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-7.0.8.7/lib/active_support/logger_silence.rb:5:in `<top (required)>'2025-08-14T06:00:43.339923144Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-7.0.8.7/lib/active_support/logger.rb:3:in `require'2025-08-14T06:00:43.339925554Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-7.0.8.7/lib/active_support/logger.rb:3:in `<top (required)>'2025-08-14T06:00:43.339928924Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-7.0.8.7/lib/active_support.rb:29:in `require'2025-08-14T06:00:43.339931374Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-7.0.8.7/lib/active_support.rb:29:in `<top (required)>'2025-08-14T06:00:43.339933904Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-7.0.8.7/lib/rails/command.rb:3:in `require'2025-08-14T06:00:43.339936424Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-7.0.8.7/lib/rails/command.rb:3:in `<top (required)>'2025-08-14T06:00:43.339938804Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-7.0.8.7/lib/rails/cli.rb:12:in `require'2025-08-14T06:00:43.339941294Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-7.0.8.7/lib/rails/cli.rb:12:in `<top (required)>'2025-08-14T06:00:43.339944574Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-7.0.8.7/exe/rails:10:in `require'2025-08-14T06:00:43.339947224Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-7.0.8.7/exe/rails:10:in `<top (required)>'2025-08-14T06:00:43.339949884Z 	from /opt/render/project/.gems/bin/rails:27:in `load'2025-08-14T06:00:43.339953274Z 	from /opt/render/project/.gems/bin/rails:27:in `<top (required)>'2025-08-14T06:00:43.339955894Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli/exec.rb:59:in `load'2025-08-14T06:00:43.339958405Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli/exec.rb:59:in `kernel_load'2025-08-14T06:00:43.339960805Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli/exec.rb:23:in `run'2025-08-14T06:00:43.339974645Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli.rb:452:in `exec'2025-08-14T06:00:43.339977325Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'2025-08-14T06:00:43.339979795Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'2025-08-14T06:00:43.339982365Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/vendor/thor/lib/thor.rb:538:in `dispatch'2025-08-14T06:00:43.339985155Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli.rb:35:in `dispatch'2025-08-14T06:00:43.339987455Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'2025-08-14T06:00:43.339990025Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli.rb:29:in `start'2025-08-14T06:00:43.339995646Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/exe/bundle:28:in `block in <top (required)>'2025-08-14T06:00:43.340002956Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/friendly_errors.rb:117:in `with_friendly_errors'2025-08-14T06:00:43.340006426Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/exe/bundle:20:in `<top (required)>'2025-08-14T06:00:43.340008956Z 	from /opt/render/project/.gems/bin/bundle:108:in `load'2025-08-14T06:00:43.340011446Z 	from /opt/render/project/.gems/bin/bundle:108:in `<main>'2025-08-14T06:00:43.344125616Z ==> Build failed 😞2025-08-14T06:00:43.344149416Z ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys2025-08-14T06:04:43.177055989Z ==> Cloning from https://github.com/ljunhyek/unicip2025-08-14T06:04:44.113165056Z ==> Checking out commit c73840a3b2657f39341142279abe9b9e433d1a38 in branch main2025-08-14T06:04:46.303752001Z ==> Only Ruby versions above 3.1.0 are supported, you have requested 3.0.0
-0 commit commentsComments0 (0)Lock conversationCommentSubscribeYou're not receiving notifications from this thread.
+2025-08-14T06:43:09.485290992Z Installing kaminari 1.2.2
+2025-08-14T06:43:09.70307171Z Installing activestorage 6.1.7
+2025-08-14T06:43:09.715637766Z Installing caxlsx_rails 0.6.4
+2025-08-14T06:43:09.718772292Z Installing actionmailer 6.1.7
+2025-08-14T06:43:09.720905311Z Installing actioncable 6.1.7
+2025-08-14T06:43:09.733809605Z Installing sprockets-rails 3.5.2
+2025-08-14T06:43:09.771682007Z Installing railties 6.1.7
+2025-08-14T06:43:09.805064065Z Fetching actionmailbox 6.1.7
+2025-08-14T06:43:09.805876947Z Fetching actiontext 6.1.7
+2025-08-14T06:43:09.81580429Z Installing actionmailbox 6.1.7
+2025-08-14T06:43:09.893651491Z Fetching dotenv-rails 3.1.8
+2025-08-14T06:43:09.89471567Z Fetching webpacker 5.4.4
+2025-08-14T06:43:09.894905125Z Fetching responders 3.1.1
+2025-08-14T06:43:09.894912765Z Fetching sassc-rails 2.1.2
+2025-08-14T06:43:09.997701481Z Installing actiontext 6.1.7
+2025-08-14T06:43:10.002899464Z Installing dotenv-rails 3.1.8
+2025-08-14T06:43:10.013844005Z Installing responders 3.1.1
+2025-08-14T06:43:10.019065329Z Installing sassc-rails 2.1.2
+2025-08-14T06:43:10.068430696Z Installing webpacker 5.4.4
+2025-08-14T06:43:10.184254101Z Fetching devise 4.9.4
+2025-08-14T06:43:10.200292082Z Installing devise 4.9.4
+2025-08-14T06:43:10.213769682Z Fetching rails 6.1.7
+2025-08-14T06:43:10.221951487Z Installing rails 6.1.7
+2025-08-14T06:43:10.24278972Z Fetching sass-rails 6.0.0
+2025-08-14T06:43:10.25478241Z Installing sass-rails 6.0.0
+2025-08-14T06:43:10.296176248Z Bundle complete! 27 Gemfile dependencies, 87 gems now installed.
+2025-08-14T06:43:10.296202829Z Gems in the groups 'development' and 'test' were not installed.
+2025-08-14T06:43:10.296266411Z Bundled gems are installed into `/opt/render/project/.gems`
+2025-08-14T06:43:10.296284531Z Post-install message from rubyzip:
+2025-08-14T06:43:10.296290611Z RubyZip 3.0 is coming!
+2025-08-14T06:43:10.296293211Z **********************
+2025-08-14T06:43:10.296295211Z 
+2025-08-14T06:43:10.296297971Z The public API of some Rubyzip classes has been modernized to use named
+2025-08-14T06:43:10.296300151Z parameters for optional arguments. Please check your usage of the
+2025-08-14T06:43:10.296302292Z following classes:
+2025-08-14T06:43:10.296304412Z   * `Zip::File`
+2025-08-14T06:43:10.296306562Z   * `Zip::Entry`
+2025-08-14T06:43:10.296308692Z   * `Zip::InputStream`
+2025-08-14T06:43:10.296310822Z   * `Zip::OutputStream`
+2025-08-14T06:43:10.296313592Z   * `Zip::DOSTime`
+2025-08-14T06:43:10.296315572Z 
+2025-08-14T06:43:10.296317792Z Run your test suite with the `RUBYZIP_V3_API_WARN` environment
+2025-08-14T06:43:10.296319932Z variable set to see warnings about usage of the old API. This will
+2025-08-14T06:43:10.296327142Z help you to identify any changes that you need to make to your code.
+2025-08-14T06:43:10.296330752Z See https://github.com/rubyzip/rubyzip/wiki/Updating-to-version-3.x for
+2025-08-14T06:43:10.296333932Z more information.
+2025-08-14T06:43:10.296337023Z 
+2025-08-14T06:43:10.296340433Z Please ensure that your Gemfiles and .gemspecs are suitably restrictive
+2025-08-14T06:43:10.296343723Z to avoid an unexpected breakage when 3.0 is released (e.g. ~> 2.3.0).
+2025-08-14T06:43:10.296368404Z See https://github.com/rubyzip/rubyzip for details. The Changelog also
+2025-08-14T06:43:10.296377784Z lists other enhancements and bugfixes that have been implemented since
+2025-08-14T06:43:10.296381244Z version 2.3.0.
+2025-08-14T06:43:10.296390634Z Post-install message from devise:
+2025-08-14T06:43:10.296393934Z 
+2025-08-14T06:43:10.296397524Z [DEVISE] Please review the [changelog] and [upgrade guide] for more info on Hotwire / Turbo integration.
+2025-08-14T06:43:10.296401844Z 
+2025-08-14T06:43:10.296405465Z   [changelog] https://github.com/heartcombo/devise/blob/main/CHANGELOG.md
+2025-08-14T06:43:10.296409334Z   [upgrade guide] https://github.com/heartcombo/devise/wiki/How-To:-Upgrade-to-Devise-4.9.0-%5BHotwire-Turbo-integration%5D
+2025-08-14T06:43:10.296412735Z   Post-install message from httparty:
+2025-08-14T06:43:10.296415955Z When you HTTParty, you must party hard!
+2025-08-14T06:43:10.296678602Z 1 installed gem you directly depend on is looking for funding.
+2025-08-14T06:43:10.296682852Z   Run `bundle fund` for details
+2025-08-14T06:43:10.752095354Z bundler: failed to load command: rails (/opt/render/project/.gems/bin/rails)
+2025-08-14T06:43:10.753343188Z /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-6.1.7/lib/active_support/logger_thread_safe_level.rb:16:in `<module:LoggerThreadSafeLevel>': uninitialized constant ActiveSupport::LoggerThreadSafeLevel::Logger (NameError)
+2025-08-14T06:43:10.75339867Z 
+2025-08-14T06:43:10.75340254Z     Logger::Severity.constants.each do |severity|
+2025-08-14T06:43:10.75340513Z     ^^^^^^
+2025-08-14T06:43:10.75340802Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-6.1.7/lib/active_support/logger_thread_safe_level.rb:9:in `<module:ActiveSupport>'
+2025-08-14T06:43:10.75341033Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-6.1.7/lib/active_support/logger_thread_safe_level.rb:8:in `<top (required)>'
+2025-08-14T06:43:10.75341303Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-6.1.7/lib/active_support/logger_silence.rb:5:in `require'
+2025-08-14T06:43:10.75341549Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-6.1.7/lib/active_support/logger_silence.rb:5:in `<top (required)>'
+2025-08-14T06:43:10.75341906Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-6.1.7/lib/active_support/logger.rb:3:in `require'
+2025-08-14T06:43:10.7534212Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-6.1.7/lib/active_support/logger.rb:3:in `<top (required)>'
+2025-08-14T06:43:10.753423351Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-6.1.7/lib/active_support.rb:29:in `require'
+2025-08-14T06:43:10.753425401Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/activesupport-6.1.7/lib/active_support.rb:29:in `<top (required)>'
+2025-08-14T06:43:10.753427511Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-6.1.7/lib/rails/command.rb:3:in `require'
+2025-08-14T06:43:10.753429871Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-6.1.7/lib/rails/command.rb:3:in `<top (required)>'
+2025-08-14T06:43:10.753432501Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-6.1.7/lib/rails/cli.rb:12:in `require'
+2025-08-14T06:43:10.753434671Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-6.1.7/lib/rails/cli.rb:12:in `<top (required)>'
+2025-08-14T06:43:10.753436801Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-6.1.7/exe/rails:10:in `require'
+2025-08-14T06:43:10.753438891Z 	from /opt/render/project/.gems/ruby/3.1.0/gems/railties-6.1.7/exe/rails:10:in `<top (required)>'
+2025-08-14T06:43:10.753441071Z 	from /opt/render/project/.gems/bin/rails:27:in `load'
+2025-08-14T06:43:10.753443611Z 	from /opt/render/project/.gems/bin/rails:27:in `<top (required)>'
+2025-08-14T06:43:10.753445731Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli/exec.rb:59:in `load'
+2025-08-14T06:43:10.753447881Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli/exec.rb:59:in `kernel_load'
+2025-08-14T06:43:10.753450071Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli/exec.rb:23:in `run'
+2025-08-14T06:43:10.753452181Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli.rb:452:in `exec'
+2025-08-14T06:43:10.753454361Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+2025-08-14T06:43:10.753456481Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+2025-08-14T06:43:10.753460121Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/vendor/thor/lib/thor.rb:538:in `dispatch'
+2025-08-14T06:43:10.753462322Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli.rb:35:in `dispatch'
+2025-08-14T06:43:10.753464462Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+2025-08-14T06:43:10.753476212Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/cli.rb:29:in `start'
+2025-08-14T06:43:10.753478602Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/exe/bundle:28:in `block in <top (required)>'
+2025-08-14T06:43:10.753490452Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/lib/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+2025-08-14T06:43:10.753492713Z 	from /opt/render/project/.gems/gems/bundler-2.6.9/exe/bundle:20:in `<top (required)>'
+2025-08-14T06:43:10.753494782Z 	from /opt/render/project/.gems/bin/bundle:108:in `load'
+2025-08-14T06:43:10.753497013Z 	from /opt/render/project/.gems/bin/bundle:108:in `<main>'
+2025-08-14T06:43:10.757583805Z ==> Build failed 😞
+2025-08-14T06:43:10.757617446Z ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys

@@ -1,4 +1,6 @@
-require "logger"   # 표준 라이브러리 선제 로드 (ActiveSupport가 logger 참조하기 전에)
+# Fix Logger compatibility issue for Ruby 3.1+ and Rails 6.1
+require "logger"
+Logger # Force Logger constant loading
 
 ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../Gemfile', __dir__)
 
