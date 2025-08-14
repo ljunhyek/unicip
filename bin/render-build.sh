@@ -4,8 +4,11 @@ set -o errexit
 
 echo "Render 빌드 시작..."
 
-# Bundler 설치
+# Bundler frozen mode 해제 및 Dependencies 설치
 echo "Dependencies 설치 중..."
+bundle config set frozen false
+bundle config set --local deployment 'true'
+bundle config set --local without 'test development'
 bundle install
 
 # 데이터베이스 마이그레이션
