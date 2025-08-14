@@ -7,7 +7,7 @@ services:
   - type: web
     name: patent-management
     env: ruby
-    buildCommand: "./bin/render-build.sh"
+    buildCommand: "bundle config set frozen false && bundle config set --local without 'test development' && bundle lock --add-platform x86_64-linux && bundle install --jobs 4 --retry 3 && bundle exec rails db:migrate && bundle exec rails assets:precompile && bundle exec rails assets:clean"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
