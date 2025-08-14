@@ -64,6 +64,7 @@ Thumbs.db
 
 # Rails specific
 *.rbc
+*.gem
 capybara-*.html
 .rspec
 /spec/tmp
@@ -72,13 +73,44 @@ capybara-*.html
 /test/tmp/
 /test/version_tmp/
 /public/system
+/.config
+/InstalledFiles
+/pkg/
+/spec/reports/
 
 # Bundler
 vendor/bundle/
 .bundle
+/lib/bundler/man/
 
 # Secrets
 config/secrets.yml
 
 # Sidekiq
 dump.rdb
+
+# Byebug
+.byebug_history
+
+# RubyMotion specific
+.dat*
+.repl_history
+build/
+*.bridgesupport
+build-iPhoneOS/
+build-iPhoneSimulator/
+
+# Documentation cache
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+# RVM
+.rvmrc
+
+# RuboCop
+# .rubocop-https?--*
+
+# Claude Code
+.claude/
