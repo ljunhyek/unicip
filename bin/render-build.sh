@@ -4,12 +4,14 @@ set -o errexit
 
 echo "Render 빌드 시작..."
 
-# Bundler frozen mode 해제 및 Dependencies 설치
-echo "Dependencies 설치 중..."
+# Bundler 설정 및 Dependencies 설치
+echo "Bundler 설정 중..."
 bundle config set frozen false
-bundle config set --local deployment 'true'
 bundle config set --local without 'test development'
-bundle install
+
+echo "플랫폼 추가 및 Dependencies 설치 중..."
+bundle lock --add-platform x86_64-linux
+bundle install --jobs 4 --retry 3
 
 # 데이터베이스 마이그레이션
 echo "데이터베이스 마이그레이션 실행 중..."
