@@ -213,6 +213,9 @@ bundle exec rubocop -a
 
 MIT License
 
+---
+*최종 업데이트: 2025-08-14*
+
 ## 지원
 
 이슈나 질문이 있으시면 GitHub Issues를 통해 문의해 주세요.
